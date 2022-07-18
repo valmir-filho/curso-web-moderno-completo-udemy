@@ -4,4 +4,4 @@ Conteúdo:
 
 1. Exercícios do curso de Java da Udemy.
 
-IDEs utilizadas: IntelliJ e Eclipse.
+IDE utilizada: Visual Studio Code.
