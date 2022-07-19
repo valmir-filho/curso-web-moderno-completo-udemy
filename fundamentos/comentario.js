@@ -1,2 +1,2 @@
 console.log("Teste");  // Comentário na própria linha.
-/* Forma de comentar em múltiplas linhas, se for o caso. */
+/* Forma de comentário em múltiplas linhas, se for o caso. */
