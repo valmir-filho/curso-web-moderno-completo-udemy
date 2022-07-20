@@ -1,5 +1,4 @@
 const ESCOLA = "Martiaço";
-
 console.log(ESCOLA.charAt(4));  // Comando "charArt()" faz o retorno da letra da String, de acordo com o parâmetro definido.
 console.log(ESCOLA.charCodeAt(4));  // Comando "charCodeAt()" faz o retorno do valor da tabela unicode (da letra da String, de acordo com o parâmetro definido).
 console.log(ESCOLA.substring(3));  // Comando "substring()" faz o retorno da String, de acordo com o parâmetro definido).

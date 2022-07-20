@@ -1,5 +1,4 @@
 let isAtivo = false;
-
 // Verdadeiros.
 console.log(isAtivo);
 console.log(!!3);

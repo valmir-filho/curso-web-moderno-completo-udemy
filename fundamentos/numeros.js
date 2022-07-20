@@ -4,7 +4,6 @@ const AVALIACAO1 = 9.87;
 const AVALIACAO2 = 6.89;
 const TOTAL = AVALIACAO1 * PESO1 + AVALIACAO2 * PESO2;
 const MEDIA = TOTAL / (PESO1 + PESO2);
-
 console.log(Number.isInteger(PESO1));  // Comando "isInteger()" faz a verificação se o número é inteiro.
 console.log(PESO1);
 console.log(PESO2);
