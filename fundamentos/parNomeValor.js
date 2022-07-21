@@ -1,9 +1,9 @@
-const SAUDACAO = "Opa";  // Contexto léxico.
+const saudacao = "Opa";  // Contexto léxico.
 function exec() {
     const SAUDACAO = "Fala!";  // contexto léxico.
     return SAUDACAO;
 }
-const CLIENTES = {  // Objetos são grupos aninhados de pares nome/valor.
+const clientes = {  // Objetos são grupos aninhados de pares nome/valor.
     nome: "Pedro",
     idade: 32,
     peso: 90,
@@ -12,6 +12,6 @@ const CLIENTES = {  // Objetos são grupos aninhados de pares nome/valor.
         numero: 123
     }
 }
-console.log(SAUDACAO);
+console.log(saudacao);
 console.log(exec());
-console.log(CLIENTES);
+console.log(clientes);
