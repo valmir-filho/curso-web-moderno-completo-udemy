@@ -1,5 +1,5 @@
 const imprimirResultado = function(nota) {
-    switch (Math.floor(nota)) {  // Comando "Math.floor" faz o arredondamento para baixo.
+    switch(Math.floor(nota)) {  // Comando "Math.floor" faz o arredondamento para baixo.
         case 10: case 9:
             console.log("Quadro de honra!");
             // Sem o comando "break", o comando "switch" executará todos os casos que se encaixarem no parâmetro.
