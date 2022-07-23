@@ -2,7 +2,8 @@
 - Equilátero: Três lados iguais. 
 - Isósceles: Dois lados iguais.
 - Escaleno: Todos os lados diferentes.
-Crie uma função que receba o valor dos três lados de um triângulo e retorne sua classificação. (abstraia as condições matemáticas de existência de um triângulo). */
+Crie uma função que receba o valor dos três lados de um triângulo e retorne sua classificação. (abstraia as condições matemáticas de existência de um
+triângulo). */
 function vericaTriangulo(a, b, c) {
     if(a == b && b == c) {
         console.log("Triângulo Equilátero");
