@@ -47,7 +47,7 @@ function numeroPorExtenso(numero) {
             console.log("Número por extenso: dez.");
             break;
         default:
-            console.log("Número fora do intervalo.")
+            console.log("Número fora do intervalo.");
     }
 }
 numeroPorExtenso(0);
