@@ -2,7 +2,8 @@
 - Plano A: aumento de 10%;
 - Plano B: aumento de 15%;
 - Plano C: aumento de 20%. 
-Faça uma função que leia o plano de trabalho e o salário atuais de um funcionário, calcule e imprima o seu novo salário. Use a estrutura switch e faça um caso default que indique que o plano é inválido. */
+Faça uma função que leia o plano de trabalho e o salário atuais de um funcionário, calcule e imprima o seu novo salário. Use a estrutura switch e faça
+um caso default que indique que o plano é inválido. */
 function novoSalario(planoTrabalho, salarioAtual) {
     switch(planoTrabalho) {
         case "A":
