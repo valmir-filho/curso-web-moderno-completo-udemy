@@ -1,4 +1,5 @@
-/* Crie um programa que exiba se um dia é útil, final de semana, ou inválido, dado o número referente. Considere que domingo é o dia 1 e sábado é o dia 7. Utilize a estrutura Switch. */
+/* Crie um programa que exiba se um dia é útil, final de semana, ou inválido, dado o número referente. Considere que domingo é o dia 1 e sábado é o dia 7.
+Utilize a estrutura Switch. */
 function verificaDia(dia) {
     switch(dia) {
         case 1:
