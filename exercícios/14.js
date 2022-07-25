@@ -5,8 +5,8 @@
 4) Código: 400 - Produto: Bauru Preço: R$7,50
 5) Código: 500 - Produto: Refrigerante Preço: R$3,50
 6) Código: 600 - Produto: Suco - R$2,80
-Implemente uma função que receba como parâmetros o código do item pedido e a quantidade, calculando o valor a ser pago pelo lanche. Considere que a cada execução somente será
-calculado um item. Use o comando switch, criando um caso default para produto não existente. */
+Implemente uma função que receba como parâmetros o código do item pedido e a quantidade, calculando o valor a ser pago pelo lanche. Considere que a cada execução
+somente será calculado um item. Use o comando switch, criando um caso default para produto não existente. */
 function valorLanche(codigo, quantidade) {
     switch(codigo) {
         case 100:
