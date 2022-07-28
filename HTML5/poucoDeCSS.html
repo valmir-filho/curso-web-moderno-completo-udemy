@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Um pouco de CSS</title>
+    <style>
+    /* O comando "display: none;" fará com que todos os "h1s" desapareçam. */
+        h1 {
+            /* display: none; */
+            /* background-color: red;
+            position: absolute;
+            top: 400px;
+            left: 400px; */
+            font-size: 20px;
+        }
+        /* O "." faz a definição de uma classe no CSS. */
+        .fundoVermelho {
+            background-color: rgb(255, 0, 0);
+        }
+        .negrito {
+            font-weight: bold;
+        }
+        /* O "#" faz a definição de um "id" no CSS (aplicação de um estilo nele). */
+        #textoPrincipal {
+            font-size: 40px;
+            font-weight: bold;
+            color: #fff;
+            padding: 10px;
+            background-color: #444;
+            margin-bottom: 50px;
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS</h1>
+    <span id="textoPrincipal">Texto 1</span><br><br><br>
+    <span class="fundoVermelho negrito">Texto 2</span><br><br>
+    <span class="fundoVermelho">Texto 3</span>
+</body>
+</html>
